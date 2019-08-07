@@ -46,7 +46,7 @@ class App extends React.Component {
             this.props.currentUser
               ? <Redirect to='/' />
               : <SingInAndSignUpPage />
-            }
+          }
           />
           <Route path='/' component={HomePage} />
         </Switch>
